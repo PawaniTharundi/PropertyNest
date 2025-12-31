@@ -1,0 +1,93 @@
+.header {
+  background: linear-gradient(135deg, #0d47a1 0%, #1976d2 50%, #2196f3 100%);
+  padding: 1.5rem 3rem;
+  box-shadow: 0 4px 20px rgba(13, 71, 161, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .logo-icon {
+      font-size: 2.5rem;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .logo-text {
+      font-family: "Outfit", sans-serif;
+      font-weight: 800;
+      font-size: 2rem;
+      color: white;
+      letter-spacing: -0.5px;
+      margin: 0;
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li a {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 1.05rem;
+        color: white;
+        text-decoration: none;
+        position: relative;
+        padding: 0.5rem 0;
+        transition: all 0.3s ease;
+
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          height: 3px;
+          background: white;
+          transition: width 0.3s ease;
+        }
+
+        &:hover::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem 1.5rem;
+
+    .logo-text {
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      gap: 1.5rem;
+
+      li a {
+        font-size: 0.95rem;
+      }
+    }
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}

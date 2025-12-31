@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Parkinsans:wght@300..800&display=swap');
+
+html,
+body {
+  height: 100%; /* Ensure both take up full viewport height */
+  margin: 0; /* Reset default margins */
+  font-family: "Parkinsans", serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  overflow: hidden;
+  overflow-y: auto; /* Enables vertical scrolling for the entire page */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  min-height: 100vh; /* Ensure body is at least viewport height */
+}
+
+.search-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
