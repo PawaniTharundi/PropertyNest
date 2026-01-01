@@ -23,9 +23,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx';   // <-- Import Footer
-
-// Simple placeholder pages
+import Footer from './components/Footer.jsx';
+import Home from './components/Home.jsx';
 const PropertySearch = () => <h2>Property Search Page</h2>;
 const PropertyList = () => <h2>Property List Page</h2>;
 
@@ -35,11 +34,12 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<PropertySearch />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/search" element={<PropertySearch />} />
         <Route path="/property-list" element={<PropertyList />} />
       </Routes>
 
-      <Footer />   {/* <-- Add Footer here */}
+      <Footer />
     </Router>
   );
 }

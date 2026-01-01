@@ -1,0 +1,21 @@
+.home {
+  text-align: center;
+  padding: 40px;
+}
+
+.home-image {
+  width: 60%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.home h2 {
+  margin-bottom: 15px;
+}
+
+.home p {
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
