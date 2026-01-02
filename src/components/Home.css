@@ -3,6 +3,10 @@
   padding: 40px;
 }
 
+.home h1{
+  font-size: 50px;
+}
+
 .home-image {
   width: 60%;
   max-width: 500px;
