@@ -20,29 +20,55 @@
 
 // export default App;
 
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import SearchPage from "./components/SearchPage";
+import "./index.css"
 import SearchForm from "./components/SearchForm";
+import PropertyListPage from "./components/PropertyListPage.jsx";
+import { DndProvider } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
+import { useState } from "react";
 
-// const SearchForm = () => <h2>Property Search Page</h2>;
-const PropertyList = () => <h2>Property List Page</h2>;
-
-function App() {
+const App = () => {
+  // State to manage favorites, initialized with saved data from localStorage if available
+  const [favorites, setFavorites] = useState(() => {
+    const savedFavorites = localStorage.getItem("favorites");
+    return savedFavorites ? JSON.parse(savedFavorites) : [];
+  });
+  
   return (
-    <Router>
-      <Header />
+    // DndProvider enables drag-and-drop functionality across the app
+    <DndProvider backend={HTML5Backend}>
+      <Router>
+        <Header />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/search" element={<SearchForm />} />
-        <Route path="/property-list" element={<PropertyList />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route
+            path="/search"
+            element={
+              <SearchPage favorites={favorites} setFavorites={setFavorites} />
+            }
+          />
+          {/* Property list page route with favorites and setFavorites props */}
+          <Route
+            path="/property-list"
+            element={
+              <PropertyListPage
+                favorites={favorites}
+                setFavorites={setFavorites}
+              />
+            }
+          />
+        </Routes>
 
-      <Footer />
-    </Router>
+        <Footer />
+      </Router>
+    </DndProvider>
   );
 }
 

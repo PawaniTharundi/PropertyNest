@@ -1,0 +1,195 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 900000,
+      "status": "sale",
+      "furnishing": "unfurnished",
+      "hasGarden": true,
+      "hasParking": true,
+      "petFriendly": true,
+      "squareFeet": 2500,
+      "description": "A Well Presented Extended Semi Detached House, situated within a short walk of Preston Road's transport & shopping facilities, parkland and sought after schools.\n\n Central Heating, Double Glazing, Enclosed Entrance Porch, Three Reception Rooms, Fitted Kitchen, Downstairs Wet Room & WC, Three First Floor Double Bedrooms, Shower Room, Sep WC.\n\n Large Rear Garden, Garage Own Driveway. Viewing Recommended.\n\n Enclosed Entrance Porch \n\n Entrance Hall\n\nSpacious hallway, fitted carpet, large archway to front reception.\n\nThrough Lounge\n\n32' 10\" x 12' 5\" (10.01m x 3.78m) Radiators, double glazed front window with shutters, fitted carpet. Double doors to:\n\nDining Room\n\n15' 10\" x 13' 3\" (4.83m x 4.04m) narrowing. Two radiators, laminate flooring, skylight, double glazed side window.\n\nRear Extension\n\n13' 1\" x 10' 10\" (3.99m x 3.30m) Radiator, wired for wall lights, laminate flooring, double glazed windows and doors to rear garden.\n\nFitted Kitchen\n\n12' 9\" x 13' 0\" (3.89m x 3.96m) narrowing to 10'9. Fitted wall and base units, fitted oven, double stainless steel sink with mixer tap and hot tap, plumbed for washing machine and tumble dryer, centre island with 5 ring stainless steel gas hob & extractor, spot lights, tiled flooring, double glazed window to rear and door to side.\n\nDownstairs Wet Room\n\n6' 9\" x 5' 4\" (2.06m x 1.63m) Shower, wash hand basin, wc, chrome radiator, spot lights, double glazed window.\n\nStairs to First Floor Landing\n\nSide window, fitted carpet, loft access.\n\nBedroom One (Front)\n\n15' 7\" x 12' 4\" (4.75m x 3.76m) Fitted wardrobes, radiator, spot lights, double glazed window with shutters.\n\nBedroom Two (Rear)\n\n18' 11\" x 11' 0\" (5.77m x 3.35m) Fitted wardrobes, radiator, spot lights, double glazed window with shutters.\n\nBedroom Three (Rear)\n\n11' 10\" x 9' 8\" (3.61m x 2.95m) Fitted wardrobe, radiator, laminate flooring, double glazed window with shutters.\n\nTiled Shower Room\n\n6' 10\" x 6' 10\" (2.08m x 2.08m) Shower cubicle, wash hand basin, wc, chrome radiator, double glazed window to front with shutters.\n\nSeparate WC\n\nWC, tiled walls, double glazed window.\n\nLarge Rear Garden\n\nPatio, lawn, outside tap, electric point.\n\nGarage via Own Driveway\n\nGarage with electric door, power and lighting, water softener, door to side path. Own Driveway for three vehicles.",
+      "location": "Cottenham Park Road, Wimbledon, London. SW20 0SB",
+      "picture": "/assets/images_2/prop1_main.jpg",
+      "pictures": [
+        "/assets/images_2/prop1_main.jpg",
+        "/assets/images_2/prop1_1.jpg",
+        "/assets/images_2/prop1_2.jpg",
+        "/assets/images_2/prop1_3.jpg"
+      ],
+      "url": "properties/prop1.html",
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 2150000,
+      "status": "sale",
+      "furnishing": "furnished",
+      "hasGarden": false,
+      "hasParking": true,
+      "petFriendly": false,
+      "squareFeet": 1800,
+      "description": "Situated on the sixth floor, with lift access, this apartment has been immaculately refurbished by the current owners.\n\nThe kitchen/dining/reception room has been beautifully designed and is the perfect space to both entertain and relax. Four doors open onto a balcony showcasing wonderful views out to the London Eye and Horse Guards.\n\nThe principal bedroom, currently set up as a reception room, is flooded with natural light and benefits from a large balcony. There is a further double bedroom and a contemporary family bathroom completes the accommodation.\n\nAdditional information\n\nWe have been informed of some fire safety matters that applicants should be aware of when considering this property. Further information will be provided.\n\nLocated on Embankment, just south of Trafalgar Square and opposite the landmark London Eye on the river, Whitehall Court benefits from outstanding local transport links, with easy access to neighbouring Mayfair and Covent Garden, and quick links to the City and Canary Wharf.\n\nThe property is perfectly placed for the many attractions of the West End, including The Royal Opera House, Theatres, the National Portrait Gallery, the Covent Garden Piazza and the Southbank Arts Centre for the Royal Festival Hall and the National Theatre.\n\nOpposite Whitehall Court is the prestigious 5* Raffles Hotel, and adjacent is the 5* Corinthia Hotel with luxury facilities including the ESPA spa and pool. St. James's Park is within close proximity, leading to Green Park and Hyde Park.",
+      "location": "One Thames Quay Marsh Wall, london, E14 9EN.",
+      "picture": "/assets/images_2/prop2_main.jpg",
+      "pictures": [
+        "/assets/images_2/prop2_main.jpg",
+        "/assets/images_2/prop2_1.jpg",
+        "/assets/images_2/prop2_2.jpg",
+        "/assets/images_2/prop2_3.jpg"
+      ],
+      "url": "properties/prop2.html",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 625000,
+      "status": "sale",
+      "furnishing": "unfurnished",
+      "hasGarden": true,
+      "hasParking": true,
+      "petFriendly": true,
+      "squareFeet": 3200,
+      "description": "A former public house which has been converted to provide beautifully presented and extensive four-bedroom accommodation with a garden, parking, outbuildings and a paddock.\n\nThe White Hart is a former public house which has been converted to provide beautifully presented and extensive four-bedroom accommodation with a garden, parking, outbuildings and a paddock. The property is bursting with character and an abundance of original period features and found in a quiet location.\n\nSituation - Gladestry is a delightful borders village found just 6 miles from Kington and 10 miles from Hay-on-Wye.\n\nFacilities in the village include a popular public house, primary school and a church with a more extensive range of services found in Kington and Hay-on-Wye. Hay-on-Wye is a popular market town located within the Brecon Beacons National Park and known world-wide as the “town of books”.\n\nThe town offers a selection of independent shops, public houses, cafes and restaurants and is famous for its literary festival held annually in May.\n\nThe towns’ location within the Brecon Beacons and close to the Black Mountains provides opportunities for a wide range of recreational activities.\n\nThe nearest rail links can be found in the cathedral city of Hereford.\n\nAccommodation - The property is entered through the front door into the entrance hall boasting beautiful, exposed beams and a flagstone floor. There is also a free-standing radiator and a wood-burning stove.\n\nImmediately to the left is the sitting room with exposed beams, an original range fireplace and a small annex, currently used as a playroom but could also make a useful office space.\n\nTo the right of the hallway is a utility room which houses the hot water cylinder and system and a separate w.c.\n\nThe heart of this house is the kitchen which is well-equipped with a range of fitted base units, a ceramic drainer sink, an oil-fired AGA, electric hob and oven. It is of exceptional proportion with exposed beams and three windows which allow light to flood the room making it a bright and airy space.\n\nA door in the entrance hall leads to a staircase leading down to the cellar which has with plumbing for a washing machine and space for a tumble dryer. There is also a useful storage area with a radiator.\n\nA staircase in the hall leads to the first-floor landing giving access to the first two bedrooms and a bathroom with a further door leading outside onto the upper terrace which also has vehicular access.\n\nThe main bedroom is of superb proportion with a fitted wardrobe and windows running the length of one wall creating a light and inviting space.\n\nThere is also a walk-in wardrobe with a window, and it is noted that plumbing is already provided offering the potential for en-suite facilities.\n\nThe second bedroom is equally generous light and airy with windows to two aspects and a feature fireplace.\n\nThe bathroom on this floor has a panel bath with shower over, close-coupled w.c and a wash-hand basin.\n\nA further staircase leads to the second-floor landing area and the remaining two bedrooms both of which are double in proportion.\n\nThis is a simply delightful house busting with character and charm.\n\nOutside - The property is approached via the village road into a driveway with two parking areas.\n\nTo the front of the house is the former forge which is partitioned into two areas 3.87m x 5.38m and 3.85m x 3.31m, one of which was a stable with a cobbled floor and the other was the original forge with some of the original forge workings remaining. Both rooms have windows to the rear, power sockets and light.\n\nImmediately in front of the house there is a parking area and a path leading to the front door.\n\nThe lower garden area is mainly laid to lawn, interspersed fruit trees and a central border with the attractive feature of bordering the Gladestry Brook.\n\nFronting on to the garden there is a cart shed which is of timber construction and offers garden storage.\n\nA private pathway leads along the river to a gate which opens up to a paddock with small woodland extending to approximately 1.80 acres with the Gladestry Brook running through part of it.\n\nOverall, this property is a haven of peace and tranquillity with an abundance of wildlife.\n\nServices - We are advised that the property is connected to mains water, mains electricity, private drainage and oil-fired central heating. Please note the services or service installations have not been tested.\n\nCouncil Tax Band - Powys County Council Band “E”.\n\nTenure - Freehold with vacant possession upon completion.\n\nDirections - From Hay-on-Wye take the B4351 in a north-westerly direction crossing the river Wye and continue to Clyro. In Clyro turn right and take the 2nd turning left and immediately right signposted to Newchurch. Continue on this road, continuing up the hill and down the other side and upon reaching the T-junction with the triangle on the right, turn right signposted to Newchurch. Continue to Newchurch itself and proceed through the village and continue to Gladestry. Upon entering Gladestry turn left up the small green triangle and the driveway will be found immediately on the left-hand side in front of the church wall.",
+      "location": "Canada Water, The Founding, London. SE16 7AR",
+      "picture": "/assets/images_2/prop3_main.jpg",
+      "pictures": [
+        "/assets/images_2/prop3_main.jpg",
+        "/assets/images_2/prop3_1.jpg",
+        "/assets/images_2/prop3_2.jpg",
+        "/assets/images_2/prop3_3.jpg"
+      ],
+      "url": "properties/prop3.html",
+      "added": {
+        "month": "November",
+        "day": 5,
+        "year": 2023
+      }
+    },
+
+    {
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 550000,
+      "status": "rent",
+      "furnishing": "furnished",
+      "hasGarden": false,
+      "hasParking": true,
+      "petFriendly": false,
+      "squareFeet": 1200,
+      "description": "Key features:\n\n Iconic Development\n24 Hour Concierge Service\n26th Floor Provides Stunning View\nNext Level High Specification\nAward Winning Developer\nSuperb City Centre Location\nExcellent Private and Public Transport Links\nTwo Double Bedrooms Both Ensuite\nOriginally Three Bedroom - Option to Reinstate\nAllocated Parking Included\n\nA superb two bedroom apartment which was originally a three bedroom unit so can easily be put back to its original layout. The apartment is positioned on the 26th floor within the phenomenal Axis Tower with far reaching views over the Manchester skyline.\n\nAxis stands proud as one of Manchester’s most anticipated developments. This iconic tower boasts 28 storeys of views across the city and beyond.\n\nAn embodiment of innovation, the development is a true epitome of exclusivity and architectural grandeur & is synonymous with stylish, City Centre living with a specification and finish to match.\n\nThe product of years of preparation and planning, AXIS is like nothing else in the City and the experience it offers inside and out is entirely unique. The design concept blends an innovative use of available ground space with a dazzling approach to glass, light and colour.\n\nBoasting sublime views and an extremely attractive layout, the high specification apartment briefly comprises: open plan living room and luxury kitchen, study (original 3rd bedroom), two large double bedrooms both ensuite. Secure Parking Included, with option to purchase an additional space.",
+      "location": "Belgrave Crescent Lane Edinburgh, EH4 3AG.",
+      "picture": "/assets/images_2/prop4_main.jpg",
+      "pictures": [
+        "/assets/images_2/prop4_main.jpg",
+        "/assets/images_2/prop4_1.jpg",
+        "/assets/images_2/prop4_2.jpg",
+        "/assets/images_2/prop4_3.jpg"
+      ],
+      "url": "properties/prop4.html",
+      "added": {
+        "month": "December",
+        "day": 20,
+        "year": 2023
+      }
+    },
+
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 2000000,
+      "status": "sale",
+      "furnishing": "part-furnished",
+      "hasGarden": true,
+      "hasParking": true,
+      "petFriendly": true,
+      "squareFeet": 6500,
+      "description": "Situated in the heart of Harrow lies this stunning 5-Bedroom Detached family home, a true masterpiece of architectural and modern design. This luxurious property boasts over 3 floors of both opulent and extensive living space, ideal for a family providing the perfect blend of modernity and traditional charm.\n\nSpread across approximately 5,000 square feet, this exceptional residence boasts 5 well-proportioned bedrooms, 7 bathrooms with an En-Suite in every bedroom, a spacious reception room and top of the range home gym. Every detail has been carefully thought out to ensure that every inch of space is used to its maximum potential, providing flexible living spaces for family life, entertaining, and relaxation.\n\nThe ground floor of this family home offers a massive reception/dining room to entertain family and guests intricate ceiling details, exposed brickwork, and pillars add extra charm and character, and with underfloor heating making it easy to warm up the big space. Floor-to-ceiling bi-folding doors allow natural light to pour in and reveal the generously sized garden.\n\nFurthermore, a large fully fitted modern kitchen which leads onto the garage conversion into a home office and top-of-the-range gym, making this a multi-purpose room. Most rooms also benefit from air conditioning units that have the heat option too. Smart system panel on each floor allowing you to control various digital facilities for extra comfort.\n\nAs you ascend to the first and second levels of this exceptional property, you are greeted with five generously sized bedrooms, with each room having its own en-suite providing plenty of space for relaxation and rest.\n\nThe exterior of this impressive home offers a massive private garden ideal for entertaining family and friends and perfect for children to play. The garden also houses a further outdoor building which can double up as storage/gym or summer house for outdoor entertaining.\n\nFamilies with young children will appreciate the proximity to excellent schools. Al-Ehsan Community school is a mere 4-minute drive away, offering convenience for families with little ones. Further Options include Weald Rise Primary School & Shaftesbury High School, just a 3-minute drive away.\n\nTransport Facilities include Harrow & Wealdstone Train Station (Bakerloo Line, Overground, Southern Line and West Midlands Railway), Harrow on The Hill Station (Metropolitan Line), & North Harrow Station (Metropolitan Line).",
+      "location": "Hitcham Lane taplow, maidenhead, Buckinghamshire, SL6 0HG.",
+      "picture": "/assets/images_2/prop5_main.jpg",
+      "pictures": [
+        "/assets/images_2/prop5_main.jpg",
+        "/assets/images_2/prop5_1.jpg",
+        "/assets/images_2/prop5_2.jpg",
+        "/assets/images_2/prop5_3.jpg"
+      ],
+      "url": "properties/prop5.html",
+      "added": {
+        "month": "November",
+        "day": 10,
+        "year": 2023
+      }
+    },
+    {
+      "id": "prop6",
+      "type": "House",
+      "bedrooms": 2,
+      "price": 254000,
+      "status": "sale",
+      "furnishing": "unfurnished",
+      "hasGarden": false,
+      "hasParking": false,
+      "petFriendly": false,
+      "squareFeet": 1000,
+      "description": "With its well-proportioned interior, the two-bedroom Andrew is a perfect first home. A bright, inviting hallway leads to a spacious contemporary kitchen with a view of the front garden – ideal if you’re expecting guests. Enjoy an intimate meal in the rear living and dining room or throw open the French doors for summer BBQ’s with friends. You can store coats and shoes in the useful under stairs cupboard, and the downstairs cloakroom means there’s no need to use the stairs until bedtime. When you do venture upstairs later, there’s space for visitors or kids in the bright front bedroom, and a private sanctuary for you in the large back bedroom.\n\nRoom Dimensions:\n\nGround Floor:\nCloaks - 1.80m x 1.22m, 5'11\" x 4'0\"\nKitchen - 2.06m x 3.30m, 6'9\" x 10'10\"\nLounge Dining Area - 4.02m x 3.54m, 13'2\" x 11'8\"\n\nFirst Floor:\nBathroom - 1.77m x 2.10m, 5'10\" x 6'11\"\nBedroom 1 - 4.02m x 3.59m, 13'2\" x 11'9\"\nBedroom 2 - 4.02m x 2.40m, 13'2\" x 7'11\"",
+      "location": "The Atlas 145 City Road, London, EC1V 1AX.",
+      "picture": "/assets/images_2/prop6_main.jpg",
+      "pictures": [
+        "/assets/images_2/prop6_main.jpg",
+        "/assets/images_2/prop6_1.jpg",
+        "/assets/images_2/prop6_2.jpg",
+        "/assets/images_2/prop6_3.jpg"
+      ],
+      "url": "properties/prop6.html",
+      "added": {
+        "month": "January",
+        "day": 8,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop7",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 1350000,
+      "status": "rent",
+      "furnishing": "furnished",
+      "hasGarden": false,
+      "hasParking": false,
+      "petFriendly": false,
+      "squareFeet": 1500,
+      "description": "A bright three bedroom apartment with an exciting opportunity for modernisation and improvement.\n\nThis spacious and bright apartment is located on the fourth floor of this well maintained mansion block and has exciting potential for further modernisation and improvement. The accommodation comprises a double reception room with feature fireplaces and overlooks Battersea Park. The principle bedroom with built in storage lies next door to the double reception room and also benefits from park views. There are two further bedrooms which include built in wardrobes, a main bathroom and a shower room. To the rear of the property lies the kitchen with built in units, space for dining and a handy utility room. ",
+      "location": "Prince of Wales Drive, London, SW11",
+      "picture": "/assets/images_2/prop7_main.jpg",
+      "pictures": [
+        "/assets/images_2/prop7_main.jpg",
+        "/assets/images_2/prop7_1.jpg",
+        "/assets/images_2/prop7_2.jpg",
+        "/assets/images_2/prop7_3.jpg"
+      ],
+      "url": "properties/prop7.html",
+      "added": {
+        "month": "February",
+        "day": 15,
+        "year": 2024
+      }
+    }
+  ]
+}

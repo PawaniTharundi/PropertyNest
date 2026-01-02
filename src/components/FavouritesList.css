@@ -1,0 +1,117 @@
+.favorites-list {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgba(13, 71, 161, 0.08);
+  min-height: 400px;
+  position: sticky;
+  top: 100px;
+
+  .favorites-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e3f2fd;
+
+    h2 {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0d47a1;
+      margin: 0;
+    }
+
+    .clear-button {
+      padding: 0.6rem 1.2rem;
+      background: linear-gradient(135deg, #e53935, #f44336);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+  }
+
+  .empty-message {
+    text-align: center;
+    color: #78909c;
+    padding: 3rem 1rem;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+  }
+
+  .favorites-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .favorite-item {
+    display: flex;
+    gap: 1.2rem;
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 2px solid #e3f2fd;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: #1976d2;
+      box-shadow: 0 4px 15px rgba(25, 118, 210, 0.15);
+    }
+
+    .favorite-image {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .favorite-info {
+      flex: 1;
+
+      .favorite-price {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 700;
+        font-size: 1.3rem;
+        color: #0d47a1;
+        margin-bottom: 0.4rem;
+      }
+
+      .favorite-location {
+        font-family: "Inter", sans-serif;
+        font-size: 0.9rem;
+        color: #546e7a;
+        margin-bottom: 0.8rem;
+      }
+
+      .remove-button {
+        padding: 0.5rem 1rem;
+        background: #ef5350;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:hover {
+          background: #e53935;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    position: static;
+    margin-top: 2rem;
+  }
+}

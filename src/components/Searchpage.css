@@ -1,0 +1,57 @@
+.search-page-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+
+  /* // Page Header */
+  .search-page-header {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background: transparent;
+    border-radius: 20px;
+
+    .page-title {
+      font-family: "Outfit", sans-serif;
+      font-size: 3rem;
+      font-weight: 800;
+      color: #0d47a1;
+      margin: 1rem 0 1rem 0;
+
+      @media (max-width: 768px) {
+        font-size: 2rem;
+      }
+    }
+
+    .page-subtitle {
+      font-size: 1.2rem;
+      color: #546e7a;
+      margin: 0;
+      line-height: 1.6;
+
+      @media (max-width: 768px) {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  /* // Search Content */
+  .search-content {
+    margin-bottom: 4rem;
+    .search-layout {
+      grid-template-columns: 2fr 1fr;
+      gap: 2.5rem;
+      margin-top: 2rem;
+      margin-left: 10px;
+
+      @media (max-width: 1024px) {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+}
