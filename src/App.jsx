@@ -26,6 +26,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import SearchPage from "./components/SearchPage";
+import PropertyDetail from "./components/PropertyDetail.jsx";
 import "./index.css"
 import SearchForm from "./components/SearchForm";
 import PropertyListPage from "./components/PropertyListPage.jsx";
@@ -64,6 +65,8 @@ const App = () => {
               />
             }
           />
+          {/* Property detail page route, passing property ID via the URL */}
+          <Route path="/property/:id" element={<PropertyDetail />} />
         </Routes>
 
         <Footer />

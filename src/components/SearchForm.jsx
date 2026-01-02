@@ -134,13 +134,6 @@ const SearchForm = ({ onSearch }) => {
   return (
     <form className="search-form" onSubmit={handleSearchSubmit}>
       {/* Location input */}
-      <div className="search-page-header">
-        <h1 className="page-title">Discover Your Perfect Home</h1>
-        <p className="page-subtitle">
-          Use our advanced search filters to find properties that match your
-          exact requirements
-        </p>
-      </div>
       <div className="search-group location-group">
         <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" />
         <input
