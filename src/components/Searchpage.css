@@ -4,10 +4,10 @@
   padding: 0px;
   font-family: "Inter", sans-serif;
 
-  /* // Page Header */
+  /* Page Header */
   .search-page-header {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: -2rem;
     padding: 2rem;
     background: transparent;
     border-radius: 20px;
@@ -16,7 +16,7 @@
       font-family: "Outfit", sans-serif;
       font-size: 3rem;
       font-weight: 800;
-      color: #0d47a1;
+      color: #010307;
       margin: 1rem 0 1rem 0;
 
       @media (max-width: 768px) {
@@ -36,19 +36,10 @@
     }
   }
 
-  /* // Search Content */
+  /* Search Content */
   .search-content {
     margin-bottom: 4rem;
-    .search-layout {
-      grid-template-columns: 2fr 1fr;
-      gap: 2.5rem;
-      margin-top: 2rem;
-      margin-left: 10px;
-
-      @media (max-width: 1024px) {
-        grid-template-columns: 1fr;
-      }
-    }
+    width: 100%;
   }
 
   @media (max-width: 768px) {

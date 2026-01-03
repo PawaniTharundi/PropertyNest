@@ -1,14 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import PropertySearch from "./PropertySearch";
-import FavoritesList from "./FavouritesList";
 import "./SearchPage.css";
 
 const SearchPage = ({ favorites, setFavorites }) => {
-  // Sync favorites with localStorage on each update
-  useEffect(() => {
-    localStorage.setItem("favorites", JSON.stringify(favorites));
-  }, [favorites]);
-
   // Add property to favorites if not already present
   const addToFavorites = (property) => {
     if (!favorites.some((fav) => fav.id === property.id)) {
@@ -16,18 +10,6 @@ const SearchPage = ({ favorites, setFavorites }) => {
     } else {
       alert("This property is already in your favorites!");
     }
-  };
-
-  // Remove property from favorites
-  const removeFromFavorites = (propertyId) => {
-    setFavorites((prevFavorites) =>
-      prevFavorites.filter((fav) => fav.id !== propertyId)
-    );
-  };
-
-  // Clear all favorites
-  const clearFavorites = () => {
-    setFavorites([]);
   };
 
   return (
@@ -42,21 +24,6 @@ const SearchPage = ({ favorites, setFavorites }) => {
 
       <div className="search-content">
         <PropertySearch onAddToFavorites={addToFavorites} />
-
-        <div className="search-layout">
-          <div className="results-section">
-            {/* Results will be shown here by PropertySearch component */}
-          </div>
-
-          <div className="favorites-sidebar">
-            <FavoritesList
-              favorites={favorites}
-              onRemove={removeFromFavorites}
-              onClearFavorites={clearFavorites}
-              onAdd={addToFavorites}
-            />
-          </div>
-        </div>
       </div>
     </div>
   );
