@@ -132,7 +132,7 @@ const SearchForm = ({ onSearch }) => {
   };
 
   return (
-    <form className="search-form" onSubmit={handleSearchSubmit}>
+    <form className="search-form" onSubmit={handleSearchSubmit} role="form">
       {/* Location input */}
       <div className="search-group location-group">
         <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" />
