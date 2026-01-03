@@ -27,7 +27,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import SearchPage from "./components/SearchPage";
 import PropertyDetail from "./components/PropertyDetail.jsx";
-import "./index.css"
+import "./index.css";
 import SearchForm from "./components/SearchForm";
 import PropertyListPage from "./components/PropertyListPage.jsx";
 import { DndProvider } from "react-dnd";
@@ -40,11 +40,11 @@ const App = () => {
     const savedFavorites = localStorage.getItem("favorites");
     return savedFavorites ? JSON.parse(savedFavorites) : [];
   });
-  
+
   return (
     // DndProvider enables drag-and-drop functionality across the app
     <DndProvider backend={HTML5Backend}>
-      <Router>
+      <Router basename="/PropertyNest">
         <Header />
 
         <Routes>
@@ -73,6 +73,6 @@ const App = () => {
       </Router>
     </DndProvider>
   );
-}
+};
 
 export default App;
